@@ -189,8 +189,8 @@ body{
 .drawer{
   position: fixed;
   top: 0;
-  right: -300px;
-  width: 300px;
+  right: -260px;
+  width: 260px;
   height: 100vh;
   background: #fff;
   padding: 100px 30px;
@@ -206,13 +206,21 @@ body{
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 35px;
+}
+
+.drawer__list a{
+  text-decoration: none;
+  color: #7b2fa3;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
 }
 
 .overlay{
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0,0,0,0.3);
   opacity: 0;
   visibility: hidden;
   transition: 0.3s;
