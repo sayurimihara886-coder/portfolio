@@ -38,10 +38,16 @@ body{
 @media (max-width:768px){
 
  .hamburger{
-  display: none;
+  display: block;
   background: none;
   border: none;
   cursor: pointer;
+  padding: 0;
+}
+
+.header__nav,
+.header__btn{
+  display: none;
 }
 
 .hamburger span{
@@ -65,10 +71,7 @@ body{
 .hamburger.active span:nth-child(3){
   transform: translateY(-8px) rotate(-45deg);
 }
- .drawer,
- .overlay{
-    display:none;
-  }
+
 .hero{
   height:70vh;
   padding:0 20px;
