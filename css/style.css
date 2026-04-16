@@ -414,14 +414,31 @@ html{
 .work-detail__button {
   margin-top: 40px;
 }
-
+/* 
 .btn--primary {
   background: #333;
   color: #fff;
+} */
+
+.btn--primary{
+  display:inline-block;
+  padding:15px 30px;
+  background:#e89ab3;
+  color:#fff;
+  border-radius:50px;
+  text-decoration:none;
+  transition:0.3s;
+}
+
+.btn--primary:hover{
+  opacity:0.8;
 }
 
 .btn:hover {
   opacity: 0.8;
+}
+section{
+  padding:60px 20px;
 }
 
 @media screen and (max-width: 768px) {
